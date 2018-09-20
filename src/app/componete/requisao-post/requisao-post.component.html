@@ -1,0 +1,15 @@
+<form [formGroup]="formRequisicao">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <input class="form-control" formControlName="nome" type="text">
+            </div>
+            <div class="col-sm-6">
+                <input class="form-control"  formControlName="sobreNome" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary" (click)="submeter()"> Submeter POST</button>
+        </div>
+    </div>
+</form>
